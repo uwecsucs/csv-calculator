@@ -57,6 +57,8 @@ def display_results(results: Dict[str, float], title: str) -> None:
         print(f"{product}: {value:.2f}")
 
 
+# Example usage:
+
 filename = "sales.csv"
 sales_data = load_sales_data(filename)
 
